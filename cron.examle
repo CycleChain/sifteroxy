@@ -1,2 +1,2 @@
-*/30 * * * * /opt/proxy-manager/proxy_update.sh
-*/10 * * * * /opt/proxy-manager/proxy_update.sh
+*/30 * * * * /opt/sifteroxy/proxy_update.sh
+*/10 * * * * /opt/sifteroxy/proxy_update.sh
