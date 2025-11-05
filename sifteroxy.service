@@ -1,0 +1,10 @@
+[Unit]
+Description=Sifteroxy - sift(er) + proxy — fetch, sift, verify, and publish working proxies atomically.
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/sifteroxy
+ExecStart=/opt/sifteroxy/proxy_update.sh
+Nice=5
